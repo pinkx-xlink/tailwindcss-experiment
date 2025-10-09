@@ -33,12 +33,14 @@ const Navbar = () => {
                 </span>
             </div>
             {/* Links */}
-            <ul className=''>
+            <ul className='hidden md:flex items-center gap-6
+            lg:gap-8 text-gray-700 font-medium'>
                 {navItems.map(({name, href}) => (
                     <li key={name}>
                         <a 
                         href=''
-                        className=''>
+                        className='hover:text-green-500 cursor-pointer
+                        transition-colors'>
                             {name}
                         </a>
                     </li>
