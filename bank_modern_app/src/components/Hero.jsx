@@ -37,7 +37,23 @@ const Hero = () => {
                         Lorem ipsum sdkjnfskjnd lkfsjndlkf s;dlmf
                     </p>
                 </div>
-                
+
+                <div className='bg-white w-72 rounded-3xl p-6 border
+                border-gray-100 shadow-xl lg:shadow-2xl transition'>
+                    <div className='ml-4 w-10 h-10 flex items-center
+                    justify-center rounded-lg bg-pink-100 mb-4'>
+                        <span className='text-pink-500 text-xl'>
+                            <Heart className='text-pink-600 w-6 h-6'/>
+                        </span>
+                    </div>
+                    <h3 className='ml-4 text-lg font-semibold text-gray-800'>
+                        Service Subtitle Two
+                    </h3>
+                    <p className='ml-4 text-gray-500 text-sm mt-2'>
+                        Lorem ipsum sdkjnfskjnd lkfsjndlkf s;dlmf
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
