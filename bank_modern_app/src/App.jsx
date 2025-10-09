@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import About from './components/About'
+import WhyOurCompany from './components/WhyOurCompany'
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <WhyOurCompany />
     </div>
   )
 }
