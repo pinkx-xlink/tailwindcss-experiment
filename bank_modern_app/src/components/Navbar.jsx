@@ -21,7 +21,7 @@ const Navbar = () => {
             {/* Logo */ }
             <div className='flex items-center text-xl sm:text-2xl
             font-bold text-gray-900'>
-                <div className='w-8 h-8 sm:h-10 flex items-center
+                <div className='w-8 h-8 sm:h-10 sm:w-10 flex items-center
                 justify-center rounded-full border-3 sm:border-4
                 border-pink-600 text-pink-600 mr-2'>
                     P
