@@ -1,5 +1,5 @@
-import about from '../assets/hands2.jpg'
 import { Circle, Users, Target, ArrowRight } from 'lucide-react'
+import about from '../assets/hands2.jpg'
 
 const About = () => {
   return (
