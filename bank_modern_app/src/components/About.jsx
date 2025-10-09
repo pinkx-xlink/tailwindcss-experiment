@@ -1,5 +1,5 @@
 import about from '../assets/hands2.jpg'
-import { Circle } from 'lucide-react'
+import { Circle, Users, Target } from 'lucide-react'
 
 const About = () => {
   return (
@@ -45,8 +45,53 @@ const About = () => {
                 <Circle className='text-pink-500 w-5 h-5'/>
                 <Circle className='text-yellow-500 w-5 h-5'/>
                 <Circle className='text-green-500 w-5 h-5'/>
+            </div>
+        </div>
+        <p className='text-base sm:text-lg text-gray-700 leading-relaxed
+        text-center lg:text-left'
+        data-aos='fade-left'
+        data-aos-delay='100'>
+            Lorem ipsum blah blah blah
+        </p>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4
+        md:gap-6 mt-8 md:mt-10'
+        data-aos='fade-up'
+        data-aos-delay='200'>
+            <div className='bg-white p-4 md:p-6 rounded-xl md:rounded-2xl
+            border border-gray-100 shadow-md md:shadow-lg transition-all
+            hover:shadow-xl'>
+                <div className='w-10 h-10 md:w-12 md:h-12 flex item-center
+                justify-center rounded-lg bg-pink-100 mb-3 md:mb-4'>
+                    <Users className='text-pink-600 w-5 h-5 md:w-6 md:h-6'/>
+                </div>
+                <h3 className='text-base md:text-lg font-semibold text-gray-800
+                mb-2'>
+                    Expert Team
+                </h3>
+                <p className='text-gray-600 text-xs md:text-sm'>
+                    Lorem Ipsum alknask sldkdnlksd sdlkflksd lfk 
+                </p>
+            </div>
+            
+             <div className='bg-white p-4 md:p-6 rounded-xl md:rounded-2xl
+            border border-gray-100 shadow-md md:shadow-lg transition-all
+            hover:shadow-xl'>
+                <div className='w-10 h-10 md:w-12 md:h-12 flex item-center
+                justify-center rounded-lg bg-yellow-100 mb-3 md:mb-4'>
+                    <Target className='text-yellow-600 w-5 h-5 md:w-6 md:h-6'/>
+                </div>
+                <h3 className='text-base md:text-lg font-semibold text-gray-800
+                mb-2'>
+                    Our Mission
+                </h3>
+                <p className='text-gray-600 text-xs md:text-sm'>
+                    Lorem Ipsum alknask sldkdnlksd sdlkflksd lfk 
+                </p>
+            </div>
+            <div>
 
             </div>
+
         </div>
 
         </div>
