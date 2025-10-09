@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { X, Menu } from 'lucide-react';
+import { useState } from 'react';
 
 const navItems = [
     {name: "Home", href: '#'},
@@ -64,9 +64,9 @@ const Navbar = () => {
                 className='p-1 rounded-md focus:outline-none
                 focus:ring-2 focus:ring-pink-500'>
                     {isMenuOpen ? (
-                        <X className="w-6 h-6 text-gray-600"/>
+                        <X className="w-6 h-6 text-gray-700"/>
                     ) : (
-                        <Menu className="w-6 h-6 text-gray-600"/>
+                        <Menu className="w-6 h-6 text-gray-700"/>
                     )}
                 </button>
             </div>
