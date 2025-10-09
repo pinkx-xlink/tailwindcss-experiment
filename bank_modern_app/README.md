@@ -20,3 +20,5 @@ IMAGE CREDITS:
 YARN: Photo by Surene Palvie: https://www.pexels.com/photo/four-green-yarns-on-chopping-board-2062061/
 
 HANDS: Photo by Keira Burton: https://www.pexels.com/photo/person-holding-a-baby-6624367/
+
+Hands 2: Photo by William  Fortunato : https://www.pexels.com/photo/crop-anonymous-black-mother-holding-hand-of-baby-lying-on-bed-6393346/
