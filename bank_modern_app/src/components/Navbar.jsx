@@ -11,7 +11,7 @@ const navItems = [
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const toggleMenu = () => setIsMenuOpen(isMenuOpen);
+    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
     <nav className="fixed w-full bg-gray-50 top-0 
@@ -72,25 +72,25 @@ const Navbar = () => {
             </div>
         </div>
         {isMenuOpen && (
-            <div className='md:hidden bg-white shadow-lg border-t
-            border-gray-200'>
-                <div className='px-4 py-3 space-y-3'>
+            <div className="md:hidden bg-white shadow-lg border-t
+            border-gray-200">
+                <div className="px-4 py-3 space-y-3">
                     {navItems.map(({name, href}) => (
                         <a 
                     key={name} 
                     href={href}
-                    className='block py-2 px-4 text-gray-700
+                    className="block py-2 px-4 text-gray-700
                     hover:bg-gray-100 rounded-lg hover:text-green-500
-                    transition-colors'
+                    transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                     >
                             {name}
                         </a>
                     ))}
-                    <div className='pt-2'>
-                        <button className='w-full py-2 rounded-lg
+                    <div className="pt-2">
+                        <button className="w-full py-2 rounded-lg
                         bg-pink-500 text-white font-medium
-                        hover:bg-pink-600 transition-colors'>
+                        hover:bg-pink-600 transition-colors">
                             Get Started
                         </button>
                     </div>
