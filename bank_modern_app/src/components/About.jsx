@@ -88,14 +88,20 @@ const About = () => {
                     Lorem Ipsum alknask sldkdnlksd sdlkflksd lfk 
                 </p>
             </div>
-            <div>
-
-            </div>
-
         </div>
 
+        <div 
+        className='flex justify-center lg:justify-start mt-8
+        md:mt-10'
+        data-aos='fade-up'
+        data-aos-delay='300'>
+            <button className='px-6 py-3 md:px-8 md:py-4 bg-pink-500
+            text-white rounded-full font-medium'>
+                Learn more About Us
+            </button>
         </div>
-        
+        </div>
+
     </section>
   )
 }
