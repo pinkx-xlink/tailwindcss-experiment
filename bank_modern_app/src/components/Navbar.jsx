@@ -56,6 +56,23 @@ const Navbar = () => {
                     Get Started
                 </button>
             </div>
+
+            {/* Menu */ }
+            <div className='md:hidden'>
+                <button onClick={toggleMenu}
+                className='p-1 rounded-md focus:outline-none
+                focus:ring-2 focus:ring-pink-500'>
+                    {isMenuOpen ? (
+                        <div>
+
+                        </div>
+                    ) : (
+                        <div>
+                            
+                        </div>
+                    )}
+                </button>
+            </div>
         </div>
     </nav>
   )
