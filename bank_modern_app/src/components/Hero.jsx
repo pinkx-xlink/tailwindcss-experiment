@@ -1,4 +1,4 @@
-import { Circle, Heart } from 'lucide-react';
+import { Circle, Heart, Award } from 'lucide-react';
 import React from 'react';
 
 const Hero = () => {
@@ -41,9 +41,9 @@ const Hero = () => {
                 <div className='bg-white w-72 rounded-3xl p-6 border
                 border-gray-100 shadow-xl lg:shadow-2xl transition'>
                     <div className='ml-4 w-10 h-10 flex items-center
-                    justify-center rounded-lg bg-pink-100 mb-4'>
-                        <span className='text-pink-500 text-xl'>
-                            <Heart className='text-pink-600 w-6 h-6'/>
+                    justify-center rounded-lg bg-yellow-100 mb-4'>
+                        <span className='text-yellow-500 text-xl'>
+                            <Award className='text-yellow-600 w-6 h-6'/>
                         </span>
                     </div>
                     <h3 className='ml-4 text-lg font-semibold text-gray-800'>
