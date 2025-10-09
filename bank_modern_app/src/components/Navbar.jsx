@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { X, Menu } from 'lucide-react';
 
 const navItems = [
     {name: "Home", href: '#'},
@@ -63,17 +64,39 @@ const Navbar = () => {
                 className='p-1 rounded-md focus:outline-none
                 focus:ring-2 focus:ring-pink-500'>
                     {isMenuOpen ? (
-                        <div>
-
-                        </div>
+                        <X className="w-6 h-6 text-gray-600"/>
                     ) : (
-                        <div>
-                            
-                        </div>
+                        <Menu className="w-6 h-6 text-gray-600"/>
                     )}
                 </button>
             </div>
         </div>
+        {isMenuOpen && (
+            <div className='md:hidden bg-white shadow-lg border-t
+            border-gray-200'>
+                <div className='px-4 py-3 space-y-3'>
+                    {navItems.map(({name, href}) => (
+                        <a 
+                    key={name} 
+                    href={href}
+                    className='block py-2 px-4 text-gray-700
+                    hover:bg-gray-100 rounded-lg hover:text-green-500
+                    transition-colors'
+                    onClick={() => setIsMenuOpen(false)}
+                    >
+                            {name}
+                        </a>
+                    ))}
+                    <div className='pt-2'>
+                        <button className='w-full py-2 rounded-lg
+                        bg-pink-500 text-white font-medium
+                        hover:bg-pink-600 transition-colors'>
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        )}
     </nav>
   )
 }
