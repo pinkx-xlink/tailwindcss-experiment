@@ -47,8 +47,12 @@ const Navbar = () => {
                 ))}
             </ul>
             {/* Button */}
-            <div className=''>
-                <button>
+            <div className='hidden md:block'>
+                <button
+                onClick={toggleMenu}
+                className='px-4 py-2 sm:px-5 sm:py-y rounded-lg
+                sm:rounded-xl bg-pink-500 text-white font-medium
+                hover:bg-pink-600 transition-colors'>
                     Get Started
                 </button>
             </div>
