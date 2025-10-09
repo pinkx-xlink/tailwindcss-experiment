@@ -18,3 +18,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 IMAGE CREDITS:
 YARN: Photo by Surene Palvie: https://www.pexels.com/photo/four-green-yarns-on-chopping-board-2062061/
+
+HANDS: Photo by Keira Burton: https://www.pexels.com/photo/person-holding-a-baby-6624367/
