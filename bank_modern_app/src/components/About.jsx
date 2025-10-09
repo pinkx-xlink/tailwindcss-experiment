@@ -1,5 +1,5 @@
 import about from '../assets/hands2.jpg'
-import { Circle, Users, Target } from 'lucide-react'
+import { Circle, Users, Target, ArrowRight } from 'lucide-react'
 
 const About = () => {
   return (
@@ -96,8 +96,11 @@ const About = () => {
         data-aos='fade-up'
         data-aos-delay='300'>
             <button className='px-6 py-3 md:px-8 md:py-4 bg-pink-500
-            text-white rounded-full font-medium'>
+            text-white rounded-full font-medium hover:bg-pink-600
+            transition-all shadow-md hover:shadow-lg flex items-center
+            gap-2 text-sm md:text-base'>
                 Learn more About Us
+                <ArrowRight className='h-4 w-4 md:h-5 md:w-5'/>
             </button>
         </div>
         </div>
