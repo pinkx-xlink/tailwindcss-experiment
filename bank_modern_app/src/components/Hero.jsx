@@ -1,5 +1,5 @@
 import { Circle, Heart, Award } from 'lucide-react';
-import React from 'react';
+import hero from '../assets/hands.jpg';
 
 const Hero = () => {
   return (
@@ -54,6 +54,18 @@ const Hero = () => {
                     </p>
                 </div>
 
+            </div>
+        </div>
+        <div className='flex-1 mt-12 lg:mt-0 lg:ml-12 relative w-full
+        flex justify-center'>
+            <div className='w-64 h-64 sm:w-80 sm:h-80 md:w-96 md::h-96
+            lg:w-[600px] lg:h-[500px] overflow-hidden border-8
+            border-white shadow-lg lg:shadow-lg
+            rounded-[60%_40%_30%_60%/60%_30%_70%_30%] relative z-10'>
+                <img 
+                src={hero} 
+                alt="Hero" 
+                className='object-cover w-full h-full'/>
             </div>
         </div>
     </section>
