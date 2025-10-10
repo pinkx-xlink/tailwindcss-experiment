@@ -166,6 +166,18 @@ const Services = () => {
                 ))}
             </div>
         </div>
+        <div className='hidden md:block absolute border-2
+        border-pink-500 bottom-20 left-10 w-16 h-16 sm:w-20 sm:h-20
+        md:w-24 md:h-24 rouned-full opacity-50'
+        data-aos='zoom-in'
+        data-aos-delay='700'>
+        </div>
+        <div className='hidden md:block absolute border-2
+        border-green-500 top-40 right-10 w-20 h-20 sm:w-24 sm:h-24
+        md:w-32 md:h-32 rouned-full opacity-50'
+        data-aos='zoom-in'
+        data-aos-delay='700'>
+        </div>
     </section>
   )
 }
