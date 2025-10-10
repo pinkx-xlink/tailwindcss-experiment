@@ -39,7 +39,7 @@ const Navbar = () => {
                 {navItems.map(({name, href}) => (
                     <li key={name}>
                         <a 
-                        href=''
+                        href={href}
                         className='hover:text-green-500 cursor-pointer
                         transition-colors'>
                             {name}
