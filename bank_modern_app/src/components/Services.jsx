@@ -140,6 +140,15 @@ const Services = () => {
                                     </div>
                                 ))}
                             </div>
+                            <div className='flex justify-center lg:justify-start'
+                            data-aos='fade-up'
+                            data-aos-delay='600'>
+                                <button className={`px-6 py-3 sm:px-8 ${ser.butColor}
+                                font-medium transition-all shadow-md hover:shadow-lg
+                                flex items-center gap-2 text-sm sm:text-base`}>
+                                    Get This Service
+                                </button>
+                            </div>
                         </div>
                     </div>
                 ))}
