@@ -25,4 +25,3 @@ Hands 2: Photo by William  Fortunato : https://www.pexels.com/photo/crop-anonymo
 
 Noticed error @38 min: my links don't redirect to the About/Home page when eitheris clicked. Go back to around 15-20min in to troubleshoot href and see what I messed up
 
-@49 min - Excellence Guaranteed div is rounded and I don't think it's supposed to be lol
