@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Brush } from 'lucide-react';
+import { Brush, Code, Camera } from 'lucide-react';
 
 const Services = () => {
     const [activeService, setActiveService] = useState(1);
@@ -40,9 +40,23 @@ const Services = () => {
     ];
 
   return (
-    <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae risus massa. Donec maximus tortor id diam iaculis, commodo rhoncus mi volutpat. Ut aliquet, risus non volutpat tincidunt, nunc ligula tristique lacus, at consequat leo est et erat. Nam accumsan placerat hendrerit. In finibus pellentesque magna, nec mattis sapien feugiat vel. Nullam sed ultricies massa. In vel ornare dolor, eu scelerisque est.
-    </div>
+    <section id='service' className='relative'>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <h2>
+                            Our{" "}
+                            <span>
+                                Services<span>.</span>
+                            </span>
+                        </h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
   )
 }
 
