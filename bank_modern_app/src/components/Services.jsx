@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Brush, Code, Camera, Circle } from 'lucide-react';
+import { Brush, Code, Camera, Circle, CheckCircle } from 'lucide-react';
 
 import service1 from '../assets/ux-design.jpg'
 import service2 from '../assets/camera.jpg'
@@ -126,7 +126,19 @@ const Services = () => {
                             sm:gap-4 mb-6 sm:mb-8'
                             data-aos='fade-up'
                             data-aos-delay='400'>
-
+                                {ser.features.map((feature, idx)=>(
+                                    <div key={idx}
+                                    className='flex items-center gap-2'
+                                    data-aos="fade-up"
+                                    data-aos-delay={450 + (idx *50)}>
+                                        <CheckCircle className='w-4 h-4 sm:w-5
+                                        sm:h-5 text-green-500 flex-shrink-0'/>
+                                        <span className='text-gray-700 text-sm
+                                        sm:text-base'>
+                                            {feature}
+                                        </span>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
