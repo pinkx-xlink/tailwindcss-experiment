@@ -97,7 +97,7 @@ const Services = () => {
             border-gray-100'
             data-aos='fade-up'
             data-aos-delay='200'>
-                {ServiceWorkerRegistration.filter(ser => ser.id === activeService).map(ser => (
+                {services.filter(ser => ser.id === activeService).map(ser => (
                     <div key={ser.id} className='flex flec-col lg:flex-row gap-6
                     md:gap-10'>
                         <div className='flex-1'>
