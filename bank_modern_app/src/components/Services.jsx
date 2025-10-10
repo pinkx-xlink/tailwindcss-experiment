@@ -54,7 +54,7 @@ const Services = () => {
                         text-gray-900'>
                             Our{" "}
                             <span className='font-bold text-black'>
-                                Services<span>.</span>
+                                Services<span className='text-green-500'>.</span>
                             </span>
                         </h2>
                         <div className='flex justify-center gap-3 mt-4'>
@@ -64,6 +64,29 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='flex flex-wrap gap-3 sm:gap-4 mb-8
+            sm:mb-12 justify-center'
+            data-aos='fade-up'
+            data-aos-delay='100'>
+                {services.map((ser) => (
+                    <button 
+                    key={ser.id}
+                    onClick={() => setActiveService(ser.id)}
+                    className={`px-4 py-2 sm:px-6 sm:py-3 rounded-full
+                    font-medium flex items-center gap-2 transition-all
+                    text-sm sm:text-base ${
+                        activeService === ser.id
+                        ? `${ser.color} text-white shadow-lg`
+                        : `bg-white text-gray-700 shadow-md
+                        hover:shadow-lg`
+                    }`}
+                    data-aos='fade-up'
+                    data-aos-delay={ser.id * 100}>
+                        {ser.icon}
+                        {ser.title}
+                    </button>
+                ))}
             </div>
         </div>
     </section>
