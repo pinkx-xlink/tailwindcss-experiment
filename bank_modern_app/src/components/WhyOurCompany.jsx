@@ -4,7 +4,8 @@ import { Circle, Star, Zap, Shield } from 'lucide-react'
 const WhyOurCompany = () => {
   return (
     <section id='company'
-    className='relative overflow-hidden bg-gradient-to-br from-blue-50
+    className='relative scroll-m-6 overflow-hidden bg-gradient-to-br 
+    from-blue-50
     to-purple-50 py-12 px-4 sm:py-16 md:py-12 lg:px-20'>
         <div className='max-w-6xl mx-auto'>
             <div 
@@ -21,7 +22,7 @@ const WhyOurCompany = () => {
                     <Circle className='text-green-500 w-5 h-5'/>
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8
-                md:gap-12 item-center'>
+                md:gap-12 item-center text-white'>
                     <div className='relative w-full flex justify-center
                     order-2 lg:order-1'>
                         <div
