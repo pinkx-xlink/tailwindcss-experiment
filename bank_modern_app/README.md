@@ -19,6 +19,7 @@ If you are developing a production application, we recommend using TypeScript wi
 IMAGE CREDITS:
 WOMAN HOLDING MOON: Photo by Ruvim: https://www.pexels.com/photo/woman-holding-a-moon-3622517/
 
+LAPTOP: https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg
 
 HANDS: Photo by Keira Burton: https://www.pexels.com/photo/person-holding-a-baby-6624367/
 
