@@ -79,13 +79,53 @@ const WhyOurCompany = () => {
                         </div>
 
                         <div className='relative order-1 lg:order-2'>
-                            <div className='bg-gradient-to-br from-yellow-600 rounded-2xl
-                            md:rounded-3xl p-6 md:p-8 flex flex-col justify-center'
+                            <div className='bg-gradient-to-br from-yellow-600 
+                            to-pink-600 rounded-2xl md:rounded-3xl p-6 md:p-8 
+                            flex flex-col justify-center'
                             data-aos='zoom-in'
                             data-aos-delay='200'
                             >
                                 <div className='max-w-md mx-auto text-center'>
-                                    
+                                    <div className='w-16 h-16 sm:w-20 sm:h-20 rounded-full
+                                    bg-white/20 flex items-center justify-center
+                                    mx-auto mb-4 sm:mb-6'>
+                                        <Star className='w-8 h-8 sm:w-10 sm:h-10'/>
+                                    </div>
+                                    <h3 className='text-xl sm:text-2xl font-bold mb-3 sm:mb-4'>
+                                        98% Customer Satisfaction 
+                                    </h3>
+                                    <p className='mb-4 sm:text-base'>
+                                        Lorem ipsum blah blah blah
+                                    </p>
+                                    <div className='flex justify-center gap-3 sm:gap-4'>
+                                        <div 
+                                        className='text-center'
+                                        data-aos='fade-up'
+                                        data-aos-delay='400'>
+                                        <div className='text-2xl sm:text-3xl font-bold'>500+</div>
+                                        <div className='text-sx sm:text-sm'>Projects Completed</div>
+                                        </div>
+                                        <div className='flex justify-center gap-3 sm:gap-4'>
+                                        <div 
+                                        className='text-center'
+                                        data-aos='fade-up'
+                                        data-aos-delay='400'>
+                                        <div className='text-2xl sm:text-3xl font-bold'>10+</div>
+                                        <div className='text-sx sm:text-sm'>Years Experience</div>
+
+                                        </div>
+                                        <div className='flex justify-center gap-3 sm:gap-4'>
+                                        <div 
+                                        className='text-center'
+                                        data-aos='fade-up'
+                                        data-aos-delay='400'>
+                                        <div className='text-2xl sm:text-3xl font-bold'>99%</div>
+                                        <div className='text-sx sm:text-sm'>Success Rate</div>
+
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
                                 </div>
 
                             </div>
