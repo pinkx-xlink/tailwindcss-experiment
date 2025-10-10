@@ -1,5 +1,5 @@
 import { Circle, Heart, Award } from 'lucide-react';
-import hero from '../assets/hands.jpg';
+import hero from '../assets/woman-holding-moon.jpg';
 
 const Hero = () => {
   return (
