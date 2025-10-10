@@ -111,6 +111,22 @@ const Services = () => {
                                         {ser.icon}
                                     </div>
                                 </div>
+                                <h3 className='text-2xl sm:text-3xl font-bold
+                                text-gray-800'>
+                                    {ser.title}
+                                </h3>
+                            </div>
+                            <p className='text-base sm:text-lg text-gray-700
+                            mb-4 sm:mb-6 leading-relaxed'
+                            data-aos='fade-right'
+                            data-aos-delay='350'>
+                                {ser.desc}
+                            </p>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 gap-3
+                            sm:gap-4 mb-6 sm:mb-8'
+                            data-aos='fade-up'
+                            data-aos-delay='400'>
+
                             </div>
                         </div>
                     </div>
