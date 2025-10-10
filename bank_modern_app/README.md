@@ -23,5 +23,8 @@ HANDS: Photo by Keira Burton: https://www.pexels.com/photo/person-holding-a-baby
 
 Hands 2: Photo by William  Fortunato : https://www.pexels.com/photo/crop-anonymous-black-mother-holding-hand-of-baby-lying-on-bed-6393346/
 
+CAMERA: Photo by MaLeK DriDi : https://www.pexels.com/photo/person-holding-black-canon-dslr-camera-kit-1082663/
+
+
 Noticed error @38 min: my links don't redirect to the About/Home page when eitheris clicked. Go back to around 15-20min in to troubleshoot href and see what I messed up
 
