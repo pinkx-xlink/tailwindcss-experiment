@@ -92,6 +92,30 @@ const Services = () => {
                     </button>
                 ))}
             </div>
+            <div className='bg-white rounded-2xl md:rounded-3xl
+            shadow-lg md:shadow-xl p-6 sm:p-8 mb-12 md:mb-16 border
+            border-gray-100'
+            data-aos='fade-up'
+            data-aos-delay='200'>
+                {ServiceWorkerRegistration.filter(ser => ser.id === activeService).map(ser => (
+                    <div key={ser.id} className='flex flec-col lg:flex-row gap-6
+                    md:gap-10'>
+                        <div className='flex-1'>
+                            <div className='flex items-center gap-3 sm:gap-4 sm:mb-6'
+                            data-aos='fade-right'
+                            data-aos-delay='300'>
+                                <div className={`w-12 h-12 sm:h-16 rounded-lg
+                                sm:rounded-xl flex items-center justify-center
+                                ${ser.color} bg-opacity-10`}>
+                                    <div className={ser.iconColor}>
+                                        {ser.icon}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
     </section>
   )
