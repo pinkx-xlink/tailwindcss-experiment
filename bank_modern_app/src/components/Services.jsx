@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Brush, Code, Camera, Circle, CheckCircle } from 'lucide-react';
+import { Brush, Code, Camera, Circle, CheckCircle, ArrowRight } from 'lucide-react';
 
 import service1 from '../assets/ux-design.jpg'
 import service2 from '../assets/camera.jpg'
@@ -144,10 +144,22 @@ const Services = () => {
                             data-aos='fade-up'
                             data-aos-delay='600'>
                                 <button className={`px-6 py-3 sm:px-8 ${ser.butColor}
+                                text-white rounded-full
                                 font-medium transition-all shadow-md hover:shadow-lg
                                 flex items-center gap-2 text-sm sm:text-base`}>
                                     Get This Service
+                                    <ArrowRight className='h-4 w-4 sm:h-5 sm:w-5'/>
                                 </button>
+                            </div>
+                        </div>
+                        <div className='flex-1 mt-6 lg:mt-0'
+                        data-aos='zoom-in'
+                        data-aos-delay='500'>
+                            <div className='w-full h-60 sm:72 md:h-80 overflow-hidden
+                            shadow-lg rounded-xl md:rounded-2xl'>
+                                <img src={ser.image} alt={ser.title}
+                                className='object-cover w-full transform
+                                hover:scale-105 transition-transform duration-700'/>
                             </div>
                         </div>
                     </div>
