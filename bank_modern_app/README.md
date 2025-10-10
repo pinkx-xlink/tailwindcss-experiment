@@ -25,6 +25,8 @@ Hands 2: Photo by William  Fortunato : https://www.pexels.com/photo/crop-anonymo
 
 CAMERA: Photo by MaLeK DriDi : https://www.pexels.com/photo/person-holding-black-canon-dslr-camera-kit-1082663/
 
+CODING: Photo by Christina Morillo: https://www.pexels.com/photo/woman-sitting-in-front-laptop-1181677/
+
 
 Noticed error @38 min: my links don't redirect to the About/Home page when eitheris clicked. Go back to around 15-20min in to troubleshoot href and see what I messed up
 
