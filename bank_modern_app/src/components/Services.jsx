@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import { Brush, Code, Camera, Circle } from 'lucide-react';
 
+import service1 from '../assets/ux-design.jpg'
+import service2 from '../assets/camera.jpg'
+import service3 from '../assets/coding.jpg'
+
 const Services = () => {
     const [activeService, setActiveService] = useState(1);
     const services = [
@@ -13,7 +17,7 @@ const Services = () => {
             color: "bg-pink-400",
             butColor: "bg-pink-400 hover:bg-pink-500",
             iconColor: "text-pink-100",
-            // image: service1
+            image: service1
         },
             { 
             id: 2,
@@ -24,7 +28,7 @@ const Services = () => {
             color: "bg-green-400",
             butColor: "bg-green-400 hover:bg-green-500",
             iconColor: "text-green-100",
-            // image: service2
+            image: service2
         },
             { 
             id: 3,
@@ -35,7 +39,7 @@ const Services = () => {
             color: "bg-yellow-400",
             butColor: "bg-yellow-400 hover:bg-yellow-500",
             iconColor: "text-yellow-100",
-            // image: service3
+            image: service3
         },
     ];
 
