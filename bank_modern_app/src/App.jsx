@@ -5,7 +5,8 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import WhyOurCompany from './components/WhyOurCompany'
-
+import Services
+ from './components/Services'
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -21,6 +22,7 @@ const App = () => {
       <Hero />
       <About />
       <WhyOurCompany />
+      <Services />
     </div>
   )
 }
