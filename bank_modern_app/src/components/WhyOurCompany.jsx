@@ -1,5 +1,5 @@
 import React from 'react'
-import { Circle, Star, Zap } from 'lucide-react'
+import { Circle, Star, Zap, Shield } from 'lucide-react'
 
 const WhyOurCompany = () => {
   return (
@@ -53,6 +53,27 @@ const WhyOurCompany = () => {
                             </p>
                         </div>
 
+                    </div>
+
+                    <div 
+                    className='flex items-start gap-4 sm:gap-6 p-4 transition-all
+                    bg-transparent'
+                    data-aos='fade-right'
+                    data-aos-delay='200'>
+                        <div className='flex-shrink-0 w-10 h-10 sm:w-12
+                        sm:h-12 flex items-center justify-center'>
+                            <Shield className='w-5 h-5 sm:h-6 sm:w-6 md:w-7
+                            md:h-7 text-purple-600'/>
+                        </div>
+                        <div>
+                            <h3 className='text-lg sm:text-xl font-semibold
+                            text-gray-900 mb-2'>
+                                Innovation Driven
+                            </h3>
+                            <p className='text-gray-600 text-sm sm:text-base'>
+                                Lorem ipsum paragraph
+                            </p>
+                            </div>
                     </div>
 
                     <div 
@@ -121,10 +142,24 @@ const WhyOurCompany = () => {
                                         data-aos-delay='400'>
                                         <div className='text-2xl sm:text-3xl font-bold'>99%</div>
                                         <div className='text-sx sm:text-sm'>Success Rate</div>
-
                                         </div>
                                     </div>
                                     </div>
+                                    </div>
+                                    <div className='hidden md:block absolute -top-8 -right-6
+                                    w-20 h-20 sm:w-24 sm:h-24 md:w-28 rounded-full border-4
+                                    border-yellow-500 opacity-50'
+                                    data-aos='zoom-in'
+                                    data-aos-delay='600'>
+                                    </div>
+                                    <div className='hidden md:block absolute -bottom-8 -left-14
+                                    w-20 h-20 sm:w-24 sm:h-24 md:w-28 rounded-full border-4
+                                    border-pink-500 opacity-50'
+                                    data-aos='zoom-in'
+                                    data-aos-delay='600'>
+                                    </div>
+                                    <div>
+                                        
                                     </div>
                                 </div>
 
