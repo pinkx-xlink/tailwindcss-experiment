@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
@@ -15,6 +15,31 @@ const Footer = () => {
     {label: "Company", href:"#"},
     {label: "Services", href:"#"},
     {label: "Contact", href:"#"},
+  ];
+
+  const services = [
+    {label: "UI/UX Design", href:"#"},
+    {label: "Web Development", href:"#"},
+    {label: "Photography", href:"#"},
+    {label: "Branding", href:"#"},
+    {label: "Digital Marketing", href:"#"},
+  ];
+
+  const contactInfo = [
+    {icon: Phone, text: '+123 456 7890', color:'text-pink-500'},
+    {icon: Mail, text: 'info@proservice.com', color:'text-yellow-500'},
+    {
+        icon: MapPin,
+        text: "123 Lorem ipsum vla akjaskj skjdckjs v akd.",
+        color: "text-green-500",
+        multiline: true
+    }
+  ];
+
+  const decorativeDots = [
+    {color: 'text-pink-500'},
+    {color: 'text-yellow-500'},
+    {color: 'text-green-500'}
   ];
 
   return (
