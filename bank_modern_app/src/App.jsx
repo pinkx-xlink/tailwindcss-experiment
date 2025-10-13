@@ -7,6 +7,7 @@ import About from './components/About'
 import WhyOurCompany from './components/WhyOurCompany'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const App = () => {
       <WhyOurCompany />
       <Services />
       <Contact />
+      <Footer />
     </div>
   )
 }
