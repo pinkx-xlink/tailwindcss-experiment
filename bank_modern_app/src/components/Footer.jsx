@@ -61,6 +61,29 @@ const Footer = () => {
                                     Services</span>
                             </span>
                         </div>
+                        <p className='text-gray-300 leading-relaxed font-normal'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Duis vitae risus massa. Donec maximus tortor
+                             id diam iaculis, commodo rhoncus mi volutpat. Ut 
+                             aliquet, risus non volutpat tincidunt, nunc ligula 
+                             tristique lacus, at consequat leo est et erat. Nam 
+                             accumsan placerat hendrerit. In finibus pellentesque 
+                             magna, nec mattis sapien feugiat vel. Nullam sed 
+                             ultricies massa. In vel ornare dolor, eu scelerisque est.",
+                        </p>
+                        <div className='flex gap-4'>
+                            {socialLinks.map((social, idx) => (
+                                <a 
+                                key={idx}
+                                href={social.href}
+                                className={`w-10 h-10 rounded-full
+                                bg-gray-700 flex items-center justify-center
+                                transition-colors ${social.color}`}>
+                                    <social.icon className='w-5 h-5' />
+                                </a>
+                            ))}
+
+                        </div>
                 </div>
             </div>
         </div>
