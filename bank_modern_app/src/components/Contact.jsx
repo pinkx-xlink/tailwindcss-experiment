@@ -126,6 +126,17 @@ const Contact = () => {
                   }
                 </div>
               ))}
+              <div data-aos='fade-up' data-aos-delay='300'>
+                <button 
+                type='button'
+                className='w-full bg-pink-500 text-white
+                py-3 px-6 rounded-lg font-medium
+                hover:bg-pink-600 transition-all
+                shadow-md hover:shadow-lg flex items-center
+                justify-center gap-2'>
+                  Send Message
+                </button>
+              </div>
             </form>
           </div>
         </div>
