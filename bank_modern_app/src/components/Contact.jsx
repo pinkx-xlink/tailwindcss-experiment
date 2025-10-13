@@ -159,7 +159,7 @@ const Contact = () => {
                 const IconComp = item.icon;
                 return (
                   <div key={item.id}
-                  className='flex items-center gap-4
+                  className='flex items-center gap-4 p-4
                   bg-white rounded-xl shadow-md'
                   data-aos='fade-left'
                   data-aos-delay={item.aosDelay}
@@ -183,6 +183,20 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='hidden md:block absolute border-2 
+      border-pink-500
+      bottom-20 left-10 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24
+      rounded-full opacity-50'
+      data-aos='zoom-in'
+      data-aos-delay='400'>
+      </div>
+      <div className='hidden md:block absolute border-2 
+      border-purple-500
+      top-40 right-10 w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32
+      rounded-full opacity-50'
+      data-aos='zoom-in'
+      data-aos-delay='500'>
       </div>
     </section>
   )
