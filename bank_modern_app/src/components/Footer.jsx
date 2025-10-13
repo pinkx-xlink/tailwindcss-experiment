@@ -104,6 +104,25 @@ const Footer = () => {
                             ))}
                     </ul>
                 </div>
+
+                <div className='space-y-6'>
+                    <h3 className='text-xl font-semibold border-pink-600
+                    pb-2 inline-block'>
+                        Our Services
+                    </h3>
+                    <ul className='space-y-3'>
+                            {services.map((service, index) => (
+                                <li key={index}>
+                                    <a 
+                                    href={service.href}
+                                    className='text-gray-300 hover:text-pink-500
+                                    transition-colors'>
+                                        {service.label}
+                                    </a>
+                                </li>
+                            ))}
+                    </ul>
+                </div>
             </div>
     </footer>
   )
