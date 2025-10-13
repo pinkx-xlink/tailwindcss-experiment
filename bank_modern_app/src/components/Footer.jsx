@@ -85,7 +85,24 @@ const Footer = () => {
                                 </a>
                             ))}
                         </div>
-
+                </div>
+                <div className='space-y-6'>
+                    <h3 className='text-xl font-semibold border-pink-600
+                    pb-2 inline-block'>
+                        Quick Links
+                    </h3>
+                    <ul className='space-y-3'>
+                            {quickLinks.map((link, index) => (
+                                <li key={index}>
+                                    <a 
+                                    href={link.href}
+                                    className='text-gray-300 hover:text-pink-500
+                                    transition-colors'>
+                                        {link.label}
+                                    </a>
+                                </li>
+                            ))}
+                    </ul>
                 </div>
             </div>
     </footer>
