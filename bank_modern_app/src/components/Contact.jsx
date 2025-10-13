@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPinIcon, Circle, Send } from 'lucide-react'
-import React from 'react'
+import contactImg from '../assets/workspace.jpg'
 
 const Contact = () => {
   const contactInfo = [
@@ -148,7 +148,7 @@ const Contact = () => {
             mb-8' 
             data-aos='zoom-in'
             data-aos-delay='150'>
-              <img src="" 
+              <img src={contactImg} 
               alt="Contact"/>
             </div>
           </div>
