@@ -27,4 +27,6 @@ CODING: Photo by Christina Morillo: https://www.pexels.com/photo/woman-sitting-i
 
 UX DESIGN: Photo by Fabian Wiktor: https://www.pexels.com/photo/person-writing-on-white-paper-3471423/
 
+WORK SPACE/DESK IMG: Photo by Daan Stevens: https://www.pexels.com/photo/silver-macbook-air-and-goose-neck-lamp-939331/
+
 
