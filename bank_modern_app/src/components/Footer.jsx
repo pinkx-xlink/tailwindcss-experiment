@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin, Circle } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
@@ -129,7 +129,7 @@ const Footer = () => {
                     pb-2 inline-block'>
                         Contact Info
                     </h3>
-                    <ul className='space-y-3'>
+                    <div className='space-y-4'>
                             {contactInfo.map((contact, idx) => (
                                 <div
                                 key={idx}
@@ -138,13 +138,24 @@ const Footer = () => {
                                     <div className='w-10 h-10 rounded-full
                                     bg-gray-700 flex items-center justify-center
                                     flex-shrink-0'>
-                                        <contact.icon />
+                                        <contact.icon className={`w-5 h-5
+                                            ${contact.color}`}/>
+                                    </div>
+                                    <div>
+                                        <p className='text-gray-300
+                                        whitespace-pre-line'>
+                                            {contact.text}
+                                        </p>
                                     </div>
                                 </div>
                             ))}
-                    </ul>
+                    </div>
                 </div>
-
+            </div>
+            <div className='flex justify-center gap-3 mb-8'>
+                {decorativeDots.map((dot, idx) => (
+                    <Circle key={idx} className={`${dot.color} w-4 h-4`}/>
+                ))}
             </div>
     </footer>
   )
