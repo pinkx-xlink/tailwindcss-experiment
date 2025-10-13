@@ -123,6 +123,28 @@ const Footer = () => {
                             ))}
                     </ul>
                 </div>
+
+                <div className='space-y-6'>
+                    <h3 className='text-xl font-semibold border-pink-600
+                    pb-2 inline-block'>
+                        Contact Info
+                    </h3>
+                    <ul className='space-y-3'>
+                            {contactInfo.map((contact, idx) => (
+                                <div
+                                key={idx}
+                                className={`flex items-center
+                                gap-3 ${contact.multiline ? 'items-start' : ''}`}>
+                                    <div className='w-10 h-10 rounded-full
+                                    bg-gray-700 flex items-center justify-center
+                                    flex-shrink-0'>
+                                        <contact.icon />
+                                    </div>
+                                </div>
+                            ))}
+                    </ul>
+                </div>
+
             </div>
     </footer>
   )
