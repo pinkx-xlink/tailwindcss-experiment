@@ -140,6 +140,18 @@ const Contact = () => {
               </div>
             </form>
           </div>
+          <div className='flex-1 flex flex-col items-center
+          lg:items-start'>
+            <div 
+            className='w-full max-w-md h-64 sm:h-72 md:h-80
+            overflow-hidden shadow-lg rounded-xl md:rounded-2xl
+            mb-8' 
+            data-aos='zoom-in'
+            data-aos-delay='150'>
+              <img src="" 
+              alt="Contact"/>
+            </div>
+          </div>
         </div>
       </div>
     </section>
