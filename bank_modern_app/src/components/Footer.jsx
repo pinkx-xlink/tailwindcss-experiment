@@ -167,6 +167,12 @@ const Footer = () => {
                 </p>
             </div>
         </div>
+        <div className='absolute border-2 border-pink-500 bottom-20
+        left-10 w-16 h-16 rounded-full opacity-20'>
+        </div>
+        <div className='absolute border-2 border-yellow-500 top-20
+        right-10 w-20 h-20 rounded-full opacity-20'>
+        </div>
     </footer>
   )
 }
