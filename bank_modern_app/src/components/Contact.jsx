@@ -83,6 +83,52 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <div className='flex flex-col lg:flex-row gap-8 md:gap-12
+        items-center'>
+          <div className='flex-1 bg-white rounded-2xl
+          md:rounded-3xl shadow-lg md:shadow-xl p-6 sm:p-8
+          border border-gray-100'
+          data-aos='fade-right'
+          data-aos-delay='100'>
+            <form className="space-y-6">
+              {formFeilds.map((field) => (
+                <div
+                key={field.id}
+                data-aos="fade-up"
+                data-aos-delay={field.delay}>
+                  <label 
+                  htmlFor={field.id}
+                  className='block text-sm font-medium
+                  text-gray-700 mb-2'>
+                    {field.label}
+                  </label>
+                  {
+                    field.type === 'textarea' ? (
+                      <textarea 
+                      id={field.id}
+                      name={field.id} 
+                      rows={field.rows}
+                      className='w-full px-4 py-3 border
+                      border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500
+                      focus:border-transparent transition-all'
+                      placeholder={field.placeholder}>
+
+                      </textarea>
+                    ) : (
+                      <input 
+                      type={field.type} 
+                      id={field.id}
+                      name={field.id}
+                      className='w-full px-4 py-3 border
+                      border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500
+                      focus:border-transparent transition-all'/>
+                    )
+                  }
+                </div>
+              ))}
+            </form>
+          </div>
+        </div>
       </div>
     </section>
   )
