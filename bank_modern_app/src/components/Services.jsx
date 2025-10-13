@@ -44,7 +44,7 @@ const Services = () => {
     ];
 
   return (
-    <section id='service' className='relative overflow-hidden
+    <section id='services' className='relative overflow-hidden
     bg-gradient-to-br from-gray-50 to-green-50 py-12 px-4 sm:py-16
     md:px-12 lg:px-20'>
         <div className='max-w-7xl mx-auto'>
