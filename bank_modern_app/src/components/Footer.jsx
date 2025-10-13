@@ -43,7 +43,28 @@ const Footer = () => {
   ];
 
   return (
-    <div>Footer</div>
+    <footer className='relative overflow-hidden bg-gradient-to-br
+    from-gray-900 to-gray-800 text-white py-12 px-4 sm:py-16
+    md:py-20 md:px-12 lg:px-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4
+        gap-8 md:gap-12 mb-12'>
+            <div className='space-y-6'>
+                <div className='flex items-center text-2xl font-bold'>
+                    <div className='w-10 h-10 flex items-center
+                    justify-center rounded-full border-4
+                    border-pink-600 text-pink-600 mr-2'>
+                            P
+                    </div>
+                        <div>
+                            <span>
+                                ro<span className='text-yellow-500'>
+                                    Services</span>
+                            </span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
   )
 }
 
