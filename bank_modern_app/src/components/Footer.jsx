@@ -89,7 +89,8 @@ const Footer = () => {
                         </div>
                 </div>
                 <div className='space-y-6'>
-                    <h3 className='text-xl font-semibold border-pink-600
+                    <h3 className='text-xl font-semibold border-b-2
+                    border-pink-600
                     pb-2 inline-block'>
                         Quick Links
                     </h3>
@@ -108,7 +109,8 @@ const Footer = () => {
                 </div>
 
                 <div className='space-y-6'>
-                    <h3 className='text-xl font-semibold border-pink-600
+                    <h3 className='text-xl font-semibold border-b-2
+                    border-yellow-600
                     pb-2 inline-block'>
                         Our Services
                     </h3>
@@ -127,7 +129,8 @@ const Footer = () => {
                 </div>
 
                 <div className='space-y-6'>
-                    <h3 className='text-xl font-semibold border-pink-600
+                    <h3 className='text-xl font-semibold border-b-2
+                    border-green-600
                     pb-2 inline-block'>
                         Contact Info
                     </h3>
