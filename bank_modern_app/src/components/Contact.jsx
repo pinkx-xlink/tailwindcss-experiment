@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPinIcon, Circle } from 'lucide-react'
+import { Mail, Phone, MapPinIcon, Circle, Send } from 'lucide-react'
 import React from 'react'
 
 const Contact = () => {
@@ -135,6 +135,7 @@ const Contact = () => {
                 shadow-md hover:shadow-lg flex items-center
                 justify-center gap-2'>
                   Send Message
+                  <Send className='h-5 w-5'/>
                 </button>
               </div>
             </form>
