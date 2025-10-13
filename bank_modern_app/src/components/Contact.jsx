@@ -149,7 +149,13 @@ const Contact = () => {
             data-aos='zoom-in'
             data-aos-delay='150'>
               <img src={contactImg} 
-              alt="Contact"/>
+              alt="Contact Us"
+              className='object-cover w-full transform
+              hover:scale-105 transition-transform
+              duration-700'/>
+            </div>
+            <div>
+              
             </div>
           </div>
         </div>
