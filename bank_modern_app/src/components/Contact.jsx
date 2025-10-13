@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPinIcon } from 'lucide-react'
+import { Mail, Phone, MapPinIcon, Circle } from 'lucide-react'
 import React from 'react'
 
 const Contact = () => {
@@ -58,9 +58,33 @@ const Contact = () => {
   ];
 
   return (
-    <div>
-
-    </div>
+    <section id='contact' className='relative overflow-hidden
+    bg-gradient-to-br from-blue-50 to-purple-50 py-12 px-4
+    sm:py-16 md:py-20 md:px-12 lg:px-20'>
+      <div className='max-w-7xl mx-auto'>
+        <div className='flex flex-col items-center justify-center
+        text-center mb-10'
+        data-aos='fade-down'>
+          <div className='max-w-2xl space-y-6'>
+            <div>
+              <h2 className='text-3xl sm:text-4xl
+              md:text-5xl text-gray-900'>
+                Get In {""}
+                <span className='font-bold text-black'>
+                  Touch 
+                  <span className='text-green-500'>.</span>
+                </span>
+              </h2>
+              <div className='flex justify-center gap-3 mt-4'>
+                  <Circle className='text-pink-500 w-5 h-5'/>
+                  <Circle className='text-yellow-500 w-5 h-5'/>
+                  <Circle className='text-green-500 w-5 h-5'/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
 
