@@ -50,17 +50,18 @@ const Footer = () => {
         gap-8 md:gap-12 mb-12'>
             <div className='space-y-6'>
                 <div className='flex items-center text-2xl font-bold'>
+                    
                     <div className='w-10 h-10 flex items-center
                     justify-center rounded-full border-4
                     border-pink-600 text-pink-600 mr-2'>
                             P
                     </div>
-                        <div>
-                            <span>
-                                ro<span className='text-yellow-500'>
-                                    Services</span>
-                            </span>
-                        </div>
+                        <span>
+                            ro<span className='text-yellow-500'>
+                                Services</span>
+                        </span>
+                    </div>
+
                         <p className='text-gray-300 leading-relaxed font-normal'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Duis vitae risus massa. Donec maximus tortor
@@ -71,6 +72,7 @@ const Footer = () => {
                              magna, nec mattis sapien feugiat vel. Nullam sed 
                              ultricies massa. In vel ornare dolor, eu scelerisque est.",
                         </p>
+
                         <div className='flex gap-4'>
                             {socialLinks.map((social, idx) => (
                                 <a 
@@ -82,11 +84,10 @@ const Footer = () => {
                                     <social.icon className='w-5 h-5' />
                                 </a>
                             ))}
-
                         </div>
+
                 </div>
             </div>
-        </div>
     </footer>
   )
 }
