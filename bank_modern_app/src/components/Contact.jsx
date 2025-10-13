@@ -154,8 +154,32 @@ const Contact = () => {
               hover:scale-105 transition-transform
               duration-700'/>
             </div>
-            <div>
-              
+            <div className='space-y-4 w-full max-w-md'>
+              {contactInfo.map((item) => {
+                const IconComp = item.icon;
+                return (
+                  <div key={item.id}
+                  className='flex items-center gap-4
+                  bg-white rounded-xl shadow-md'
+                  data-aos='fade-left'
+                  data-aos-delay={item.aosDelay}
+                  >
+                    <div className={`w-12 h-12
+                      ${item.iconBg} rounded-lg flex items-center
+                      justify-center`}>
+                        <IconComp className={`w-6 h-6
+                          ${item.iconColor}`}/>
+                    </div>
+                    <div>
+                      <h3 className='font-semibold
+                      text-gray-800'>{item.title}</h3>
+                      <p className='text-gray-600'>
+                          {item.content}
+                      </p>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
           </div>
         </div>
