@@ -7,4 +7,9 @@ import netlify from "@netlify/vite-plugin";
 export default defineConfig({
   plugins: [
      react(), tailwindcss(), netlify()],
+  root: 'src',
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true, // also necessary
+  }
 })
